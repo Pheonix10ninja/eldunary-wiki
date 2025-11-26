@@ -1,19 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Tales of Eldunary</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    
+    <title>Tales of Eldunary - OMWPID Archive</title>
+    <meta name="description" content="Welcome to the official digital archives of the OMWPID. Explore the knowledge of Criozevan—its kingdoms, races, and the threats that lurk in the shadows." />
+    
     <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
     <div class="container">
         <nav class="sidebar">
-            <h2>Eldunary Wiki</h2>
+            <h2>OMWPID Archive</h2>
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html" class="active">Home</a></li>
                 <li><a href="pages/kingdoms.html">Kingdoms</a></li>
                 <li><a href="pages/races.html">Races</a></li>
                 <li><a href="pages/arashi.html">The Arashi</a></li>
@@ -24,16 +32,44 @@
         <main class="content">
             <header>
                 <h1>Welcome to Criozevan</h1>
-                [cite_start]<p>Encyclopedia Edition V4 - Year 1000 ACC [cite: 848, 850]</p>
+                <p class="subtitle">Official Encyclopedia - Year 1000 ACC</p>
             </header>
 
             <section class="intro">
                 <h3>The Crimson Convergence</h3>
-                [cite_start]<p>History changed when the red star appeared over Eldunary for 40 days, drawing magic from the earth and rapidly evolving species like the Tharnex and Folkwynd [cite: 1141-1145].</p>
+                <p>
+                    History changed forever when the red star appeared over Eldunary for 40 days. [cite_start]It drew magic from the earth and put it into tangible forms like runes [cite: 296-297]. 
+                    This event caused the rapid evolution of species; [cite_start]Humans became Folkwynd, and the light of the star killed every elf it touched, forcing survivors into the shadows where they became Darkmane Elves [cite: 298-302].
+                </p>
             </section>
 
             <section class="map-section">
                 <img src="assets/map-criozevan.png" alt="Map of Criozevan" class="responsive-img">
+                [cite_start]<p class="caption">Map of the Continent in Year 1000 ACC [cite: 4]</p>
+            </section>
+
+            <section class="quick-links">
+                <h3>Classified Intel</h3>
+                <div class="grid-container">
+                    <a href="pages/arashi.html" class="card-link">
+                        <div class="card" style="border-color: #d32f2f;">
+                            <h3 style="color: #d32f2f;">The Arashi</h3>
+                            <p>View the Most Wanted list of criminals.</p>
+                        </div>
+                    </a>
+                    <a href="pages/magic.html" class="card-link">
+                        <div class="card" style="border-color: #2196f3;">
+                            <h3 style="color: #2196f3;">Magi Types</h3>
+                            <p>Metas, Malefici, and Runestone users.</p>
+                        </div>
+                    </a>
+                    <a href="pages/kingdoms.html" class="card-link">
+                        <div class="card" style="border-color: #ffd700;">
+                            <h3 style="color: #ffd700;">Kingdoms</h3>
+                            <p>Goldhelm, Akison, Fodon, and more.</p>
+                        </div>
+                    </a>
+                </div>
             </section>
         </main>
     </div>
